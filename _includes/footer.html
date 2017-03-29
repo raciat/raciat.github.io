@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrapper">
+      {% if site.profile_linkedin %}
+      {% include icon-linkedin.html url=site.profile_linkedin %}
+      {% endif %}
+
+      {% if site.profile_stackoverflow %}
+      {% include icon-stackoverflow.html url=site.profile_stackoverflow %}
+      {% endif %}
+    </div>
+  </div>
+</footer>
